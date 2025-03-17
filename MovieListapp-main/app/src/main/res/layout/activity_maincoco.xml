@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/am"
+    tools:context=".Maincoco">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="214dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        android:text="COCO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="378dp"
+        android:layout_height="373dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/description"
+        android:text="The film tells the story of Özgür (Mehmet GÜnsür) and Deniz (Belçim Bilgin Erdoğan), whose childhood and adolescence years were spent in Ankara but whose paths never quite crossed, who meet 'by chance' in Istanbul 25 years later and become involved in a love adventure full of obstacles. Although it may seem like an ordinary and repetitive love story, the film's story, which is enriched by the flashbacks to their youth through the characters, creates an unforgettable spectacle (of love). The story of Özgür and Deniz deserves to be watched as a reflection on the cinema screen of the most innocent childhood love, the love for one's profession and ultimately the love for life, as well as the &quot;lover&quot; love that only two people can feel for each other.  Translated with www.DeepL.com/Translator (free version)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="184dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="201dp"
+        android:background="@drawable/description"
+        android:text="Main Players"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="118dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="138dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="114dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="134dp"
+        android:text="Previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

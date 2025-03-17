@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="constraintColor">#7726F9</color>
+    <color name="editTextColor">#FFFFFF</color>
+    <color name="bottonColor">#4F69FF</color>
+    <color name="imgColor">#9A4EFF</color>
+    <color name="BackColor">#7f0000</color>
+    <color name="BackendColor">#ff7f00</color>
+</resources>
